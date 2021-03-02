@@ -10,14 +10,17 @@ public class ArrPrimeNumber {
 		
 		Scanner sc= new Scanner (System.in);
 	    int i, j, counter=0, last;
+//		Scanner scanner = new Scanner(System.in);
+	System.out.println("Enter size of array");
+	int n = sc.nextInt();
 	    
-	    int arr[]= new int [10];
+	    int arr[]= new int [n];
 	    System.out.println("Enter the values");
-	    for (i=0; i<10;i++)
+	    for (i=0; i<n;i++)
 	    {
 	        arr[i]= sc.nextInt();
 	    }
-	    for (i=0; i<10; i++)
+	    for (i=0; i< n; i++)
 	    {
 	       
 	        last = arr[i];
