@@ -15,7 +15,7 @@ public class ArrPrimeNumber {
 	int n = sc.nextInt();
 	    
 	    int arr[]= new int [n];
-	    System.out.println("Enter the values");
+	    System.out.println("Enter the values by pressing the enter key per each value");
 	    for (i=0; i<n;i++)
 	    {
 	        arr[i]= sc.nextInt();
